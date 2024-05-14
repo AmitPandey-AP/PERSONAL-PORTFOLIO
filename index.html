@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef353ba804.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo-png.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Competitive Programmer</p>
+            <h1>Hi,I'm AMIT PANDEY from Lucknow, India</h1>
+        </div>
+    </div>
+</div>  
+<!-------about------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/portf.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class=="sub-title">About Me</h1>
+                <p>
+                    Hi there, I am AMIT PANDEY, a second year student at Institute of Engineering and Technology, Lucknow; pursuing Bachelor of Technology in Computer Science and Engineering.
+                    <br>
+                    <br>
+                    I am proficient in some of the programming languages like C / C++ and Python; and Integrated Development Environments like Visual Studio Code and Sublime Text.
+                    <br>
+                    <br>
+                    I can develop websites using Hyper Text Markup Language and Cascading Style Sheets; 
+                    <br>
+                    <br>
+                    I am a Competitive Programming enthusiast, and love to solve problems using various Data Structures and Algorithms.
+                    <br>
+                    <br>
+                    Some of my achievements in the field of Competitive Programming are:
+                    <br>
+                    <br>
+                    • Specialist on Codeforces (Highest Rating : 1478);
+                    <br>
+                    <br>
+                    • LeetCode (Highest Rating : 1801); 
+                    <br>
+                    <br>
+                    • 3⭐ on CodeChef (Highest Rating : 1753); 
+                    <br>
+                    <br>
+                    • 6 Kyu on AtCoder (Highest Rating : 823); 
+                    <br>
+                    <br>
+                    • Meta Hacker Cup 2023 : 5546 Rank , out of 20000+ total participants.
+                    <br>
+                    <br>
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Competitive Programmer</span><br>Solving DSA problems</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Current </span><br>Student</li>
+                        <!-- <li><span>Web Development</span><br>Web app Development</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> B-Tech </span><br>CSE '26 - IET,Lucknow <br></li>
+                        <!-- <li><span>Web Development</span><br>Web app Development</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------services-------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Problem Solver</h2>
+                <p>
+
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microphone"></i>
+                <h2>Machine learning</h2>
+                <p>
+
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web design</h2>
+                <p>
+
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------portfolio------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Acheivements </h1>    
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.png" alt="">
+                <div class="layer">
+                    <h3> • Specialist on Codeforces <br>(Highest Rating : 1478)</h3>
+                    <p>
+
+                    </p>
+                    <a href="https://codeforces.com/profile/AMIT-_-PANDEY"><i><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work2.png" alt="">
+                <div class="layer">
+                    <h3> • 3⭐ on CodeChef <br> (Highest Rating : 1753)</h3>
+                    <p>
+
+                    </p>
+                    <a href="https://www.codechef.com/users/amitpandey_22"><i><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.png" alt="">
+                <div class="layer">
+                    <h3> • LeetCode <br> (Highest Rating : 1801)</h3>
+                    <p>
+
+                    </p>
+                    <a href="https://leetcode.com/u/pandey__amit/"><i><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+           <a href="https://atcoder.jp/users/Amit_Pandey_22" class="btn">See more</a> 
+    </div>
+</div>
+
+<!-- ---------------------------contact------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> pandeyamit5969@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8470988427</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/amit-pandey-37810b259/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Amitpchitrakoot"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/AmitPandey-AP"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="image/resume_2nd_year.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ amit <i class="fa-solid fa-heart"></i></p>
+    </div> 
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuUGcU-vyIYn5bMfM-CXupb0P-TaluFrAtKBfsu0AGff-1myEw5KDzftoa7BTc_WCQfw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
